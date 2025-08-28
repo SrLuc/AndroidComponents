@@ -1,0 +1,72 @@
+Activity - Exercício - OK
+
+Crie uma aplicação com 3 activities (Activity 1, Activity 2
+e Activity 3).
+Cada Activity possui um botão que inicia a próxima
+Activity.
+Observe a back stack e a ordem de execução.
+
+------------------------------------------------------------------
+
+Service - Exercício - OK
+
+Modifique a aplicação anterior para criar um Service que exibe um Toast na
+tela com o número da Activity que o chamou e também exibe um Toast
+quando o Service for finalizado.
+Chame a execução do Service quando iniciar cada uma das Activities,
+passando o número da Activity como parâmetro.
+Adicione um botão para parar o Service e observe o resultado.
+
+------------------------------------------------------------------
+
+Broadcast Receiver - Exercício - ok
+
+Modifique a aplicação anterior para registrar um BroadcastReceiver na
+Activity3 que recebe a seguinte action:
+android.net.wifi.STATE_CHANGE
+Coloque um LOG quando o Wi-Fi estiver ligado ou desligado
+
+------------------------------------------------------------------
+
+Content Providers - Exercício - ok
+
+Modifique o exercício anterior para adicionar o nome do primeiro contato na
+agenda à Activity 1, o segundo contato à Activity 2 e o terceiro contato à
+Activity 3.
+
+------------------------------------------------------------------
+
+Activity Manager - Exercício
+
+Modifique a aplicação anterior para que o Service consulte o ActivityManager e
+descubra qual o nome da Activity que está sendo exibida no momento.
+Exiba o resultado no mesmo Toast que exibe o número da Activity.
+
+------------------------------------------------------------------
+
+Package Manager - Exercício
+
+Modifique a aplicação anterior adicionando botões em uma das Activities para
+desabilitar e habilitar as outras duas Activities usando o PackageManager.
+Certifique-se de que no AndroidManifest todas as Activities são do tipo
+CATEGORY_LAUNCHER e observe o resultado na lista de aplicações
+(AppTray) e na HomeScreen (se você criou atalhos para suas Activities)
+
+------------------------------------------------------------------
+
+Power Manager - Exercício
+
+Exiba o estado de execução do device (idle, interactive e/ou power save mode)
+em uma activity
+Responda ao broadcast de ACTION_DEVICE_IDLE_MODE_CHANGED e
+observe o resultado
+
+
+
+
+
+
+
+
+
+
