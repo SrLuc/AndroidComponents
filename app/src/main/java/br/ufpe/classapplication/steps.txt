@@ -36,7 +36,7 @@ Activity 3.
 
 ------------------------------------------------------------------
 
-Activity Manager - Exercício
+Activity Manager - Exercício - ok
 
 Modifique a aplicação anterior para que o Service consulte o ActivityManager e
 descubra qual o nome da Activity que está sendo exibida no momento.
@@ -44,7 +44,7 @@ Exiba o resultado no mesmo Toast que exibe o número da Activity.
 
 ------------------------------------------------------------------
 
-Package Manager - Exercício
+Package Manager - Exercício - ok
 
 Modifique a aplicação anterior adicionando botões em uma das Activities para
 desabilitar e habilitar as outras duas Activities usando o PackageManager.
