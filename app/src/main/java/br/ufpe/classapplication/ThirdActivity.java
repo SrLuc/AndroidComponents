@@ -52,6 +52,13 @@ public class ThirdActivity extends AppCompatActivity {
         Button btnStopService = findViewById(R.id.btnStopService);
         btnStopService.setOnClickListener(v -> stopService(new Intent(this, MyService.class)));
 
+        //ir para power Activity
+        Button powerActivityButton = findViewById(R.id.power);
+        powerActivityButton.setOnClickListener(v -> {
+            Intent intent = new Intent(ThirdActivity.this, PowerActivity.class);
+            startActivity(intent);
+        });
+
         // Cria o receiver
         wifiReceiver = new BroadcastReceiver() {
             @Override
